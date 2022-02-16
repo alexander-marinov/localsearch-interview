@@ -1,0 +1,251 @@
+{
+  "_class" : "ch.local.storage.model.localentry.v1.PlaceLocalEntry",
+  "language" : "fr",
+  "entry_type" : "place",
+  "local_entry_id" : "ohGSnJtMIC5nPfYRi_HTAg",
+  "source" : {
+    "provider" : {
+      "name" : "SwisscomDirectories",
+      "properties" : {
+        "display" : {
+          "de" : "Swisscom Directories AG",
+          "fr" : "Swisscom Directories SA",
+          "it" : "Swisscom Directories SA",
+          "en" : "Swisscom Directories AG"
+        }
+      }
+    },
+    "subscriber" : {
+      "id" : 1010197979
+    }
+  },
+  "favorited" : false,
+  "place_feedback_summary" : {
+    "recommendations" : 7,
+    "positive_recommendations" : 6,
+    "display_recommendations" : true,
+    "ratings_count" : 5,
+    "feedbacks_count" : 7,
+    "reviews_count" : 0,
+    "average_rating" : 4.0,
+    "display_average_rating" : true,
+    "rating_summaries" : [ {
+      "dimension" : "ambiente",
+      "count" : 5,
+      "average" : 3.6,
+      "display" : true
+    }, {
+      "dimension" : "service",
+      "count" : 5,
+      "average" : 4.0,
+      "display" : true
+    }, {
+      "dimension" : "food",
+      "count" : 5,
+      "average" : 4.4,
+      "display" : true
+    } ],
+    "positive_recommendation_percentage" : 86
+  },
+  "addresses" : [ {
+    "_class" : "ch.local.storage.model.localentry.v1.BusinessAddress",
+    "contacts" : [ {
+      "_class" : "ch.local.storage.model.contact.v1.ContactType.phone",
+      "contact_type" : "phone",
+      "service_code" : "0273211181",
+      "formatted_service_code" : "027 321 11 81",
+      "call_link" : "+41273211181",
+      "refuse_advertising" : true,
+      "freecall_enabled" : true,
+      "preferred" : false,
+      "id" : "-EsNEvu6_7uC3O8Lv_sLGw",
+      "phone_number" : "0273211181"
+    }, {
+      "_class" : "ch.local.storage.model.contact.v1.ContactType.url",
+      "contact_type" : "url",
+      "service_code" : "http://cafemarche.ch",
+      "formatted_service_code" : "cafemarche.ch",
+      "preferred" : false,
+      "id" : "IH9OKEkWYEz__6i_w17IQA",
+      "url" : "http://cafemarche.ch"
+    } ],
+    "address_id" : "ohGSnJtMIC5nPfYRi_HTAg",
+    "address_types" : [ "business", "restaurant" ],
+    "where" : {
+      "street" : "Rue de Conthey",
+      "city" : "Sion",
+      "state" : "VS",
+      "geography" : {
+        "location" : {
+          "lat" : 46.232943,
+          "lon" : 7.358963,
+          "x" : 593853,
+          "y" : 120170,
+          "latlon" : "46.232943,7.358963",
+          "format2d" : {
+            "lng" : 7.358963,
+            "lat" : 46.232943
+          },
+          "geohex" : "QA783482310300135"
+        },
+        "altitude" : 516,
+        "bounding_box" : {
+          "lat1" : 7.358587,
+          "lat2" : 46.232888,
+          "lon1" : 7.360349,
+          "lon2" : 46.233663
+        }
+      },
+      "house_number" : "17",
+      "zipcode" : 1950
+    },
+    "place_collections" : [ {
+      "tags" : [ "entry:resto", "booking_traits:reservation:restaurant" ],
+      "tag" : "entry:resto",
+      "id" : "restaurants.entries"
+    }, {
+      "tags" : [ "entry:ba_category:restaurants" ],
+      "tag" : "entry:ba_category:restaurants",
+      "id" : "ba_category.restaurants"
+    }, {
+      "tags" : [ "resto:vertical" ],
+      "tag" : "resto:vertical",
+      "id" : "FIxOp7On8V2yk_UIHd5c4w"
+    }, {
+      "tags" : [ "resto:cuisine:french" ],
+      "tag" : "resto:cuisine:french",
+      "id" : "restaurant.category.cuisine.french"
+    }, {
+      "tags" : [ "entry:browse:restaurants_all" ],
+      "tag" : "entry:browse:restaurants_all",
+      "id" : "browse.restaurants_all"
+    } ],
+    "business" : {
+      "identities" : [ {
+        "profession" : "Restaurant",
+        "name" : "Le Café du Marché",
+        "business_description" : {
+          "de" : "Restaurant",
+          "it" : "Restaurant",
+          "fr" : "Restaurant",
+          "en" : "Restaurant"
+        }
+      } ],
+      "categories" : [ {
+        "id" : "u37d17CNjz9p2KDXMaPrLw",
+        "source_id" : "1512",
+        "emoji" : "🍴",
+        "name" : {
+          "rm" : "Ustarias",
+          "it" : "Ristorante, Caffè, Grotto, Bar",
+          "fr" : "Café, Restaurant",
+          "de" : "Restaurant",
+          "en" : "Restaurant"
+        },
+        "icon" : {
+          "renditions" : {
+            "icon" : "http://images.local.ch/ext/?format=png32&scale=fit&size=200x200&src=http:%2F%2Fbin.staticlocal.ch%2Flocalplace-icon%2Fa0%2Fa06cbed8a653ff43a4049d09267e2c00c6ea8b5d%2Ficon-restaurant.svg&hmac=54ab2ca8df3a0b2f299badfc883d2c738aa5942d"
+          },
+          "alt" : "Restaurant",
+          "asset_id" : "localplace-icon/a0/a06cbed8a653ff43a4049d09267e2c00c6ea8b5d/index.xml",
+          "url" : "http://bin.staticlocal.ch/localplace-icon/a0/a06cbed8a653ff43a4049d09267e2c00c6ea8b5d/icon-restaurant.svg"
+        }
+      }, {
+        "id" : "uiCU17QD7NGIBpmGHpwXxA",
+        "source_id" : "943",
+        "emoji" : "🇫🇷",
+        "name" : {
+          "fr" : "Cuisine française",
+          "rm" : "Cuschina franzosa",
+          "en" : "French cuisine",
+          "it" : "Cucina francese",
+          "de" : "Französische Küche"
+        },
+        "tags" : [ "restaurant:bookable" ],
+        "icon" : {
+          "renditions" : {
+            "icon" : "http://images.local.ch/ext/?format=png32&scale=fit&size=200x200&src=http:%2F%2Fbin.staticlocal.ch%2Flocalplace-icon%2Fa0%2Fa06cbed8a653ff43a4049d09267e2c00c6ea8b5d%2Ficon-restaurant.svg&hmac=54ab2ca8df3a0b2f299badfc883d2c738aa5942d"
+          },
+          "alt" : "Restaurant",
+          "asset_id" : "localplace-icon/a0/a06cbed8a653ff43a4049d09267e2c00c6ea8b5d/index.xml",
+          "url" : "http://bin.staticlocal.ch/localplace-icon/a0/a06cbed8a653ff43a4049d09267e2c00c6ea8b5d/icon-restaurant.svg"
+        }
+      }, {
+        "id" : "jkwQgWauzN3ZLICOZ6HkQQ",
+        "source_id" : "937",
+        "emoji" : "🍴",
+        "name" : {
+          "it" : "Ristoranti suddivisi per specialità",
+          "rm" : "Ustarias tenor spezialitads",
+          "de" : "Restaurants nach Spezialitäten",
+          "fr" : "Restaurants par spécialité",
+          "en" : "Restaurants according to speciality"
+        },
+        "icon" : {
+          "renditions" : {
+            "icon" : "http://images.local.ch/ext/?format=png32&scale=fit&size=200x200&src=http:%2F%2Fbin.staticlocal.ch%2Flocalplace-icon%2Fdc%2Fdcd93859649f63d9b015b8ef3e7bab149d768134%2Ficon-default.svg&hmac=fe4027fd8a4c0c75d50ac8100d3320241c9e2403"
+          },
+          "alt" : "Default Icon - No Category Assigned",
+          "asset_id" : "localplace-icon/dc/dcd93859649f63d9b015b8ef3e7bab149d768134/index.xml",
+          "url" : "http://bin.staticlocal.ch/localplace-icon/dc/dcd93859649f63d9b015b8ef3e7bab149d768134/icon-default.svg"
+        }
+      } ]
+    }
+  } ],
+  "tags" : [ "asset:opening_hours:tripadvisor", "booking_traits:reservation:restaurant", "entry:ba_category:restaurants", "entry:browse:restaurants_all", "entry:business:swisscom_directories", "entry:contact:phone", "entry:contact:url", "entry:has_claimers", "entry:has_followers", "entry:has_place_feedbacks", "entry:has_visible_place_feedbacks", "entry:rateable", "entry:resto", "geo:mappable", "prod:hil", "prod:info:opening_hours", "prod:lbp", "prod:lin", "prod:llo", "prod:lnk", "prod:localbusiness:pro", "prod:web_reference:foursquare", "resto:cuisine:french", "resto:vertical" ],
+  "displayed_what" : "Le Café du Marché",
+  "displayed_where" : "Rue de Conthey 17, 1950 Sion",
+  "opening_hours" : {
+    "days" : {
+      "tuesday" : [ {
+        "start" : "11:30",
+        "end" : "15:00",
+        "type" : "OPEN"
+      }, {
+        "start" : "18:30",
+        "end" : "00:00",
+        "type" : "OPEN"
+      } ],
+      "wednesday" : [ {
+        "start" : "11:30",
+        "end" : "15:00",
+        "type" : "OPEN"
+      }, {
+        "start" : "18:30",
+        "end" : "00:00",
+        "type" : "OPEN"
+      } ],
+      "thursday" : [ {
+        "start" : "11:30",
+        "end" : "15:00",
+        "type" : "OPEN"
+      }, {
+        "start" : "18:30",
+        "end" : "00:00",
+        "type" : "OPEN"
+      } ],
+      "friday" : [ {
+        "start" : "11:30",
+        "end" : "15:00",
+        "type" : "OPEN"
+      }, {
+        "start" : "18:30",
+        "end" : "00:00",
+        "type" : "OPEN"
+      } ],
+      "saturday" : [ {
+        "start" : "18:00",
+        "end" : "00:00",
+        "type" : "OPEN"
+      } ],
+      "sunday" : [ {
+        "start" : "11:30",
+        "end" : "15:00",
+        "type" : "OPEN"
+      } ]
+    }
+  },
+  "creation_date" : "2016-05-13T00:59:27.009+02:00",
+  "modified_date" : "2019-10-11T08:17:24.211+02:00",
+  "_update_process_type" : "batch"
+}
